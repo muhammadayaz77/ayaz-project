@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    min-height: 240px;
+}
+.left{
+    width: 50%;
+    /* background-color: aqua; */
+}
+.right{
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.l-box{
+    /* border: 1px solid black; */
+    height: 240px;
+    width: 300px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    text-align: left;
+}
+img{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 20px;
+}
+.row-2{
+    background-image: url("a181f595-32da-49ff-8f4a-f2e4f090d04b.jpg");
+    min-height: 350px;
+    width: auto;
+}
+button{
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+}
+.row-2{
+    display: flex;
+}
+.c-1,.c-2,.c-3{
+    /* border: 1px solid black; */
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin-top:50px ;
+    position: relative;
+}
+.row2-1,.row2-2,.row2-3{
+    width: 33.33%;
+}
+.c-1{
+    position: relative;
+    /* left: 100px; */
+}
+.c-2{
+    position: relative;
+    /* right: 300px; */
+}
+.c-3{
+    position: relative;
+    /* right: 50px; */
+}
+.row-3{
+    min-height: 300px;
+}
+.row3-box{
+    /* border: 1px solid black; */
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    height: 200px;
+    width: 350px;
+    margin: 65px auto;
+}
+.row-4{
+    background-image: url("a181f595-32da-49ff-8f4a-f2e4f090d04b.jpg");
+    min-height: 450px;
+    /* display: flex; */
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.row4-1,.row4-2{
+    /* border: 2px dashed white; */
+    /* height: 200px; */
+    width: 50%;
+
+}
+.r4-1,.r4-2{
+    border: 1px dashed white;
+    margin: 100px auto;
+    height: 150px;
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 70px ;
+    position: relative;
+    bottom: 100px;
+}
+.r4-1{
+    
+    left: 140px;
+}
+.r4-2{
+    right: 140px;
+}
+.row4-box{
+    text-align: center;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+.credit{
+    position: relative;
+    /* border: 1px solid black; */
+    bottom: 200px;
+    left: 500px;
+}
